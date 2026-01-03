@@ -1,0 +1,17 @@
+.button-structure {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding-inline-start: 1.25rem;
+  padding-inline-end: 1rem;
+  padding-block: 0.75rem;
+  height: 2.5rem;
+  border:  0.125rem solid #E6F1D8;
+  border-radius: 200px;
+  font-size: 1rem;
+  flex-basis: auto;
+}
+
+.button-structure > span {
+  margin: 0;
+}

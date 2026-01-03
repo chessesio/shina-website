@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Button from "../components/UI/Button/Button.astro";
+import "../styles/global.css";
+---
+
+<BaseLayout>
+  <section class="b-bottom">
+    <div class="hero">
+      <h1>
+        Your trade and Transport facilitation technology partner
+      </h1>
+      <div class="subtitle-section">
+        <span class="subtitle">
+          We provide the technology for efficient movement of trade goods within and across borders
+        </span>
+        <div style="display:flex">
+          <Button iconVisible={false} class="button-solid">
+            Join Waitlist
+          </Button>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

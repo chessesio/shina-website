@@ -1,0 +1,16 @@
+---
+import "./buttonStyle.css";
+import chevronRight from "../../../images/chevron-right.svg";
+const { iconVisible=true, class:className, ...rest } = Astro.props
+---
+
+
+<div 
+  class:list={["button-structure", className]}
+  {...rest}
+>
+  <span>
+    <slot/>
+  </span>
+  {iconVisible && <img src={chevronRight.src}/>}
+</div>

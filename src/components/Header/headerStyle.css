@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  border-bottom: 0.1rem solid #DAEAD3;
+}
+
+.logo {
+  height: 2rem;
+}

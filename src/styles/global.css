@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Helverica, Arial, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 4rem);
+}
+
+.hero {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  width: 75%;
+  margin-inline: auto;
+  padding-block: 4rem;
+  padding-inline: 3rem;
+  text-transform: capitalize;
+  border-inline: #DAEAD3 solid 0.1rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  letter-spacing: -2%;
+  line-height: 1.2;
+  color: #1C7906;
+  }
+
+.subtitle-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero .subtitle {
+  font-size: 1.25rem;
+  width: 80%;
+}
+
+.button-solid {
+  color: #FFFFFF;
+  border-width: 0;
+  background-color: #1C7906;
+  stroke: #FFFFFF;
+}
+
+.b-bottom {
+  border-bottom: #DAEAD3 solid 0.1rem;
+}
