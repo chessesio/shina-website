@@ -136,8 +136,10 @@
   --content-brand-secondary: var(--orange-600);
   --content-brand-tertiary: var(--light-yellow-600);
 
-  --border-primary: var();
-  --border-inverted-primary: var();
+  --border-primary: var(--green-200);
+  --border-inverted-primary: color-mix(in srgb, var(--green-200), 84%);
+  --border-secondary: var(--orange-200);
+  --border-tertiary: var(yellow);
 }
 
 * {
