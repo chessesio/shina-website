@@ -1,3 +1,145 @@
+:root {
+  /* Sizing Primitives*/
+
+  --size-200: 0.125rem;
+  --size-300: 0.25rem;
+  --size-350: 0.375rem;
+  --size-400: 0.5rem;
+  --size-425: 0.625rem;
+  --size-450: 0.75rem;
+  --size-475: 0.875rem;
+  --size-500: 1rem;
+  --size-550: 1.25rem;
+  --size-600: 1.5rem;
+  --size-650: 1.75rem;
+  --size-700: 2rem;
+  --size-725: 2.25rem;
+  --size-750: 2.5rem;
+  --size-800: 3rem;
+  --size-900: 4rem;
+
+  /* Color Primitives */
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --grey-100: #fdfdfd;
+  --grey-200: #eaeaea;
+  --grey-300: #d8d8d8;
+  --grey-400: #c8c8c8;
+  --grey-500: #5c5c5c;
+  --grey-600: #707170;
+  --grey-700: #474747;
+  --grey-800: #313231;
+  --grey-900: #191919;
+
+  --green-100: #fafcf9;
+  --green-200: #daead3;
+  --green-300: #93d583;
+  --green-400: #5bc242;
+  --green-500: #1c7906;
+  --green-600: #185908;
+  --green-700: #114206;
+  --green-800: #162f10;
+  --green-900: #192015;
+
+  --light-green-100: #f2f8f0;
+  --light-green-200: #e7f7d3;
+  --light-green-300: #b1d87f;
+  --light-green-400: #99d846;
+  --light-green-500: #79ce0a;
+  --light-green-600: #65a316;
+  --light-green-700: #466b14;
+  --light-green-800: #283616;
+  --light-green-900: #202617;
+
+  --orange-100: #fff7f5;
+  --orange-200: #fbeeea;
+  --orange-300: #eec5b6;
+  --orange-400: #e98967;
+  --orange-500: #fa551a;
+  --orange-600: #da3a00;
+  --orange-700: #a0330c;
+  --orange-800: #7a2608;
+  --orange-900: #271e1a;
+
+  --yellow-100: #fffbf0;
+  --yellow-200: #f8edcc;
+  --yellow-300: #f0d586;
+  --yellow-400: #ffce3d;
+  --yellow-500: #f1b401;
+  --yellow-600: #c4970e;
+  --yellow-700: #a47e11;
+  --yellow-800: #544108;
+  --yellow-900: #201d15;
+
+  /* Colour Tokens*/
+
+  --surface-primary: var(--white);
+  --surface-highlight-primary: var(--light-green-100);
+  --surface-highlight-secondary: var(--orange-200);
+  --surface-highlight-tertiary: var(--yellow-100);
+  --surface-tint-primary: var(--green-900);
+  --surface-tint-tertiary: var(--orange-900);
+  --surface-tint-secondary: var(--yellow-900);
+  --surface-brand-primary: var(--green-500);
+  --surface-brand-tertiary: var(--orange-500);
+  --surface-brand-secondary: var(--light-green-500);
+
+  --content-primary: var(--grey-800);
+  --content-secondary: var(--grey-600);
+  --content-white: var(--white);
+  --content-brand-primary: var(--green-500);
+  --content-brand-secondary: var(--orange-600);
+  --content-brand-secondary: var(--yellow-600);
+
+  --border-primary: var(--green-200);
+
+  /* Size Tokens*/
+
+  --radius-3xs: var(--size-200);
+  --radius-2xs: var(--size-300);
+  --radius-xs: var(--size-350);
+  --radius-sm: var(--size-400);
+  --radius-reg: var(--size-450);
+  --radius-lg: var(--size-500);
+  --radius-round: var(--size-600);
+
+  --space-4xs: var(--size-200);
+  --space-3xs: var(--size-300);
+  --space-2xs: var(--size-350);
+  --space-xs: var(--size-400);
+  --space-sm: var(--size-450);
+  --space-reg: var(--size-500);
+  --space-lg: var(--size-600);
+  --space-xl: var(--size-700);
+  --space-2xl: var(--size-750);
+  --space-3xl: var(--size-800);
+  --space-4xl: var(--size-900);
+
+  --text-size-2xs: var(--size-400);
+  --text-size-xs: var(--size-450);
+  --text-size-sm: var(--size-475);
+  --text-size-reg: var(--size-500);
+  --text-size-lg: var(--size-550);
+  --text-size-xl: var(--size-600);
+  --text-size-2xl: var(--size-650);
+  --text-size-3xl: var(--size-700);
+  --text-size-4xl: var(--size-725);
+  --text-size-5xl: var(--size-800);
+  --text-size-xxl: var(--size-900);
+
+  --content-primary: var(--grey-800);
+  --content-tertiary: var(--grey-600);
+  --content-white: var(--white);
+  --content-brand-primary: var(--green-500);
+  --content-brand-secondary: var(--orange-600);
+  --content-brand-tertiary: var(--light-yellow-600);
+
+  --border-primary: var();
+  --border-inverted-primary: var();
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,15 +162,15 @@ main {
   padding-block: 4rem;
   padding-inline: 3rem;
   text-transform: capitalize;
-  border-inline: #DAEAD3 solid 0.1rem;
+  border-inline: #daead3 solid 0.1rem;
 }
 
 .hero h1 {
   font-size: 4rem;
   letter-spacing: -2%;
   line-height: 1.2;
-  color: #1C7906;
-  }
+  color: #1c7906;
+}
 
 .subtitle-section {
   display: flex;
@@ -42,12 +184,12 @@ main {
 }
 
 .button-solid {
-  color: #FFFFFF;
+  color: #ffffff;
   border-width: 0;
-  background-color: #1C7906;
-  stroke: #FFFFFF;
+  background-color: #1c7906;
+  stroke: #ffffff;
 }
 
 .b-bottom {
-  border-bottom: #DAEAD3 solid 0.1rem;
+  border-bottom: #daead3 solid 0.1rem;
 }
